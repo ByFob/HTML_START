@@ -1,0 +1,96 @@
+@import "../bourbon/bourbon"
+
+$color: #FF6347 //Theme skin
+$text_color: #888
+$main_color: #222
+$bg_light: #FAFAFA
+
+@mixin kerning($kerning)
+	letter-spacing: $kerning + px
+
+body
+	color: $main_color
+	+kerning(1)
+
+a
+	color: $color
+	a:focus, :hover
+		outline: none
+		border: none
+
+p,
+.main_footer
+	color: $text_color
+.main_footer
+	+kerning(1)
+
+.bg_light
+	background-color: $bg_light
+.bg_dark
+	background-color: $main_color
+	color: #fff
+	.s_descr:after
+		background-color: #fff
+	a
+		color: #fff
+.color_element
+	color: $color
+.color_bg
+	background-color: $color
+.color_border
+	border-color: $color
+
+.main_color_bg
+	background-color: $main_color	
+
+svg
+	.svg_color
+		fill: #fff
+
+
+
+.mnu_short li a
+	color:#fff
+.mnu_short .tab_1 
+	&:hover
+		background-position: -100%
+		color: #FF910C
+.mnu_short .tab_2 
+	&:hover
+		background-position: 100%
+		color: #FF910C
+.mnu_short .tab_3 
+	&:hover
+		background-position: -100%
+		color: #FF910C
+.mnu_short .tab_4 
+	&:hover
+		background-position: 100%
+		color: #FF910C
+.top_s_about
+	p
+		color: #222
+.top_text
+	p
+		color: $bg_light
+.s_descr
+	&::after
+		background-color: #222
+.about_text p
+	&:first-child 
+		color: $color
+.str_name
+	color: $color
+
+body .owl-carousel .owl-nav button.owl-next,
+body .owl-carousel .owl-nav button.owl-prev
+	color: $color
+body .owl-carousel .owl-dot.active
+	border: solid 4px $color
+.btn
+	background-color: $color
+.sector_contact
+	h3
+		+kerning(0)
+	i
+		color: $color

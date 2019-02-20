@@ -1,0 +1,92 @@
+body {
+  color: #222;
+  letter-spacing: 1px; }
+
+a {
+  color: #FF6347; }
+  a a:focus, a :hover {
+    outline: none;
+    border: none; }
+
+p,
+.main_footer {
+  color: #888; }
+
+.main_footer {
+  letter-spacing: 1px; }
+
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222;
+  color: #fff; }
+  .bg_dark .s_descr:after {
+    background-color: #fff; }
+  .bg_dark a {
+    color: #fff; }
+
+.color_element {
+  color: #FF6347; }
+
+.color_bg {
+  background-color: #FF6347; }
+
+.color_border {
+  border-color: #FF6347; }
+
+.main_color_bg {
+  background-color: #222; }
+
+svg .svg_color {
+  fill: #fff; }
+
+.mnu_short li a {
+  color: #fff; }
+
+.mnu_short .tab_1:hover {
+  background-position: -100%;
+  color: #FF910C; }
+
+.mnu_short .tab_2:hover {
+  background-position: 100%;
+  color: #FF910C; }
+
+.mnu_short .tab_3:hover {
+  background-position: -100%;
+  color: #FF910C; }
+
+.mnu_short .tab_4:hover {
+  background-position: 100%;
+  color: #FF910C; }
+
+.top_s_about p {
+  color: #222; }
+
+.top_text p {
+  color: #FAFAFA; }
+
+.s_descr::after {
+  background-color: #222; }
+
+.about_text p:first-child {
+  color: #FF6347; }
+
+.str_name {
+  color: #FF6347; }
+
+body .owl-carousel .owl-nav button.owl-next,
+body .owl-carousel .owl-nav button.owl-prev {
+  color: #FF6347; }
+
+body .owl-carousel .owl-dot.active {
+  border: solid 4px #FF6347; }
+
+.btn {
+  background-color: #FF6347; }
+
+.sector_contact h3 {
+  letter-spacing: 0px; }
+
+.sector_contact i {
+  color: #FF6347; }
